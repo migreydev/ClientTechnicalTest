@@ -33,7 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Population />} />
           <Route path="/region/:regionName" element={<Region />} />
-          <Route path="/population/:population" element={<Filter />} />
+          <Route path="/filter" element={<Filter />} />
         </Routes>
       </Router>
     </div>
